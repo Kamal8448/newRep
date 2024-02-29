@@ -18,7 +18,6 @@ public class TestRunner {
 
     @Test
     public void execute_script() {
-        //first method
 
         try {
             String browser_name = PropertyDataReader.read_Data("config.properties", "browser_name");
